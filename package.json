@@ -1,5 +1,8 @@
 {
-  "name": "openid-client",
+  "name": "@circuitly/openid-client",
+  "publishConfig": {
+    "access": "public"
+  },  
   "version": "5.4.3",
   "description": "OpenID Connect Relying Party (RP, Client) implementation for Node.js runtime, supports passportjs",
   "keywords": [
@@ -29,11 +32,6 @@
   },
   "license": "MIT",
   "author": "Filip Skokan <panva.ip@gmail.com>",
-  "exports": {
-    "types": "./types/index.d.ts",
-    "import": "./lib/index.mjs",
-    "require": "./lib/index.js"
-  },
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
   "files": [
